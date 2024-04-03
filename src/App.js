@@ -4,6 +4,7 @@ import DetailedMoviesList from "./movies/DetailedMoviesList";
 import FullMovie from "./movie/FullMovie";
 import TheaterList from "./theaters/TheaterList";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { API_BASE_URL } from "./utils/api";
 
 function App() {
   return (
